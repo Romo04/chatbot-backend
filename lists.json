@@ -20,5 +20,50 @@
       "date": "October 2025",
       "details": "More details will be posted soon in the newsletter or website."
     }
+  ],
+  "Resources": [
+    {
+        "name": "Curtin Crisis Hotline",
+        "phone": "555-HELP",
+        "availability": "Mon-Fri 9am-6pm"
+    },
+    {
+        "name": "Crisis Hotline",
+        "phone": "800 4673",
+        "availability": "24/7"
+    },
+    {
+        "name": "Wellness Center",
+        "location": "Wellness Center Room 11.10",
+        "availability": "Drop-ins welcome"
+    }
+  ],
+  "Timetable": [
+    {
+        "name": "Computer Systems",
+        "timing": "Monday & Wednesday • 10:00 AM - 11:30 AM"
+    },
+    {
+        "name": "Linear Algebra",
+        "timing": "Tuesday & Thursday • 2:00 PM - 3:30 PM"
+    },
+    {
+        "name": "Operating Systems",
+        "timing": "Monday & Friday • 9:00 AM - 10:30 AM"
+    }
+  ],
+    "Exams": [
+    {
+        "name": "Computer Systems",
+        "date": "December 2, 2025 • 9AM - 11AM"
+    },
+    {
+        "name": "Linear Algebra",
+        "timing": "December 3, 2025 • 9AM - 10:30AM"
+    },
+    {
+        "name": "Operating Systems",
+        "timing": "December 5, 2025 • 9AM-11AM"
+    }
   ]
 }
