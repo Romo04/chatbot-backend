@@ -17,6 +17,9 @@ function capitalize(str) {
 
 app.post("/get-list", (req, res) => {
   const category = req.body.category;
+
+  console.log("Category received:", req.body.category);
+
   const items = data[category] || [];
   res.json({ formatted: formatListGeneric(items) });
 });
