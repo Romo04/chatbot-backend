@@ -1,0 +1,24 @@
+{
+  "Events": [
+    {"name":"Cultural Day","date":"October 5th","time":"All Day","location":"Curtin University Dubai Block 11"},
+    {"name":"AI Workshop & Tech Talk","date":"October 15th","time":"3:00pm","location":"CS Building Room 101"},
+    {"name":"World Mental Health Day","date":"October 20th","time":"10am - 3pm","location":"Curtin University Dubai Block 10 & 11"}
+  ],
+  "Workshops": [
+    {
+      "name": "Tech Club - Hackathon",
+      "date": "October 2025",
+      "details": "More details will be posted soon in the newsletter or website."
+    },
+    {
+      "name": "O3 Band - Curtin Concert",
+      "date": "October 2025",
+      "details": "More details will be posted soon in the newsletter or website."
+    },
+    {
+      "name": "SheVentures - Trip",
+      "date": "October 2025",
+      "details": "More details will be posted soon in the newsletter or website."
+    }
+  ]
+}
