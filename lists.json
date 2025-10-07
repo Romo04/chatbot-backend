@@ -1,68 +1,68 @@
 {
   "Events": [
-    {"name":"Cultural Day","date":"October 10th","time":"All Day","location":"Curtin University Dubai Block 11"},
-    {"name":"AI Workshop & Tech Talk","date":"October 15th","time":"3:00pm","location":"CS Building Room 101"},
-    {"name":"World Mental Health Day","date":"October 20th","time":"10am - 3pm","location":"Curtin University Dubai Block 10 & 11"}
+    {"- Event":"Cultural Day","date":"October 10th","time":"All Day","location":"Curtin University Dubai Block 11"},
+    {"- Event":"AI Workshop & Tech Talk","date":"October 15th","time":"3:00pm","location":"CS Building Room 101"},
+    {"- Event":"World Mental Health Day","date":"October 20th","time":"10am - 3pm","location":"Curtin University Dubai Block 10 & 11"}
   ],
   "Workshops": [
     {
-      "name": "Tech Club - Hackathon",
+      "- Workshop": "Tech Club - Hackathon",
       "date": "October 14th 2025",
       "details": "More details will be posted soon in the newsletter or website."
     },
     {
-      "name": "O3 Band - Curtin Concert",
+      "- Workshop": "O3 Band - Curtin Concert",
       "date": "October 16th 2025",
       "details": "More details will be posted soon in the newsletter or website."
     },
     {
-      "name": "SheVentures - Trip",
+      "- Workshop": "SheVentures - Trip",
       "date": "October 19th 2025",
       "details": "More details will be posted soon in the newsletter or website."
     }
   ],
   "Resources": [
     {
-        "name": "Curtin Crisis Hotline",
+        "- Resource": "Curtin Crisis Hotline",
         "phone": "555-HELP",
         "availability": "Mon-Fri 9am-6pm"
     },
     {
-        "name": "Crisis Hotline",
+        "- Resource": "Crisis Hotline",
         "phone": "800 4673",
         "availability": "24/7"
     },
     {
-        "name": "Wellness Center",
+        "- Resource": "Wellness Center",
         "location": "Wellness Center Room 11.10",
         "availability": "Drop-ins welcome"
     }
   ],
   "Timetable": [
     {
-        "name": "Computer Systems",
+        "- Course": "Computer Systems",
         "timing": "Monday & Wednesday • 10:00 AM - 11:30 AM - Room: 10.9"
     },
     {
-        "name": "Linear Algebra",
+        "- Course": "Linear Algebra",
         "timing": "Tuesday & Thursday • 2:00 PM - 3:30 PM - Room: 11.8"
     },
     {
-        "name": "Operating Systems",
+        "- Course": "Operating Systems",
         "timing": "Monday & Friday • 9:00 AM - 10:30 AM - Room: 10.8"
     }
   ],
     "Exams": [
     {
-        "name": "Computer Systems",
+        "- Course": "Computer Systems",
         "date": "December 2, 2025 • 9AM - 11AM - Room: 11.24/11.25"
     },
     {
-        "name": "Linear Algebra",
+        "- Course": "Linear Algebra",
         "timing": "December 3, 2025 • 9AM - 10:30AM - Room: 11.24/11.25"
     },
     {
-        "name": "Operating Systems",
+        "- Course": "Operating Systems",
         "timing": "December 5, 2025 • 9AM-11AM - Room: 11.24/11.25"
     }
   ]
