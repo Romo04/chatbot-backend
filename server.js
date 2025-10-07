@@ -3,21 +3,21 @@ const app = express();
 const data = require("./lists.json");
 app.use(express.json());
 
-// function formatListGeneric(items) {
-//   return items
-//     .map(item => Object.entries(item)
-//       .map(([k, v]) => `${capitalize(k)}: ${v}`)
-//       .join("\n"))
-//     .join("\n\n");
-// }
-
 function formatListGeneric(items) {
   return items
     .map(item => Object.entries(item)
       .map(([k, v]) => `${capitalize(k)}: ${v}`)
-      .join(" | "))   // pipe, comma, or dash
-    .join(" || ");     // separate multiple items
+      .join("\n"))
+    .join("\n\n");
 }
+
+// function formatListGeneric(items) {
+//   return items
+//     .map(item => Object.entries(item)
+//       .map(([k, v]) => `${capitalize(k)}: ${v}`)
+//       .join(" | "))   // pipe, comma, or dash
+//     .join(" || ");     // separate multiple items
+// }
 
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
